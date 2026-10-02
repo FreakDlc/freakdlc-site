@@ -337,7 +337,7 @@ document.querySelectorAll('.h,.card,details,.cta').forEach(function(el){el.class
 </script>
 <script>
 (function(){
-var DOWNLOAD_URL='/downloads/FreakDLC-Loader.zip'; // ← ссылка на лоадер
+var DOWNLOAD_URL='https://github.com/FreakDlc/freakdlc-site/releases/download/v1/FreakDLC-Loader.zip'; // ← ссылка на лоадер
 var $=function(i){return document.getElementById(i)},cur=null,mode='login',busy=0,tmr;
 function ls(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k));localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
 function toast(t){var d=document.createElement('div');d.className='ts';d.textContent=t;$('tc').appendChild(d);setTimeout(function(){d.classList.add('out');setTimeout(function(){d.remove()},400)},2800)}
