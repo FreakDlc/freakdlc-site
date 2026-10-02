@@ -1,0 +1,5 @@
+﻿data/
+node_modules/
+public/downloads/*.zip
+public/downloads/*.exe
+*.log
